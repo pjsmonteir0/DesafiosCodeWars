@@ -2,20 +2,20 @@ package io.github.pjsmonteir0.DesafiosCodeWars.solucoes;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.Random;
+
+import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 
 /**
  * This class tests the ParityOutlier class
  */
 public class ParityOutlierTest {
-    
-    @Mock
-    SquareDigit squareDigit;
 
     /**
      * It creates a bunch of arrays with different numbers of odd and even numbers, and then tests to
      * see if the function returns the correct answer
      */
+    @Test
     public void test() {
         /* Basic tests */
         
